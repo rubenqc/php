@@ -1,2 +1,2 @@
 # rconnect-php
- Class of connection to mysql database.
+ Conexion a basede datos mysql
