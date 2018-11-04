@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/SFProText-Regular.woff2') format('woff2'),
+         url('../fonts/SFProText-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.text-hide {
+    background-image: url('../img/logo_partido_morado.png');
+    height: 65px;
+    width: 65px;
+    background-size: cover;
+    margin-top: 5px;
+}
+
+header{
+	background: linear-gradient(rgba(102, 0, 135, 0.6),rgba(102, 0, 135, 0.6)), url('../img/header-crear.jpg');
+	height: 80px;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+header .nav{
+	margin-bottom: 5px;
+}
+
+header .nav a{
+	color: white !important;
+	font-family: 'SF Pro Text';
+}
+
+#bgcrear{
+	background-image: url('../img/header-crear.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+#submit{
+	background: linear-gradient(rgba(102, 0, 135, 0.6),rgba(102, 0, 135, 0.6)), url('../img/header-crear.jpg');
+	background-size: cover;
+}
+
+form{
+	font-family: 'SF Pro Text';
+}
+
+.elevar, .rechazar{
+	font-family: Arial;
+}
+
+#example tr td:last-child{
+	text-align: center;
+}
+
+.actions{
+	font-size: 13px;
+}

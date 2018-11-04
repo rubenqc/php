@@ -1,0 +1,63 @@
+/* Nota la unica parte del css que es de la pagina en si es el input
+Todo lod demas es del nav que aun no ha sido arreglado */
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/SFProText-Regular.woff2') format('woff2'),
+         url('../fonts/SFProText-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.text-hide {
+    background-image: url('../img/logo_partido_morado.png');
+    height: 65px;
+    width: 65px;
+    background-size: cover;
+    margin-top: 5px;
+}
+
+header{
+	background: linear-gradient(rgba(102, 0, 135, 0.6),rgba(102, 0, 135, 0.6)), url('../img/header-crear.jpg');
+	height: 80px;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+header .nav{
+	margin-bottom: 5px;
+}
+
+header .nav a{
+	color: white !important;
+	font-family: 'SF Pro Text';
+}
+
+#bgcrear{
+	background-image: url('../img/header-crear.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+#submit{
+	background: linear-gradient(rgba(102, 0, 135, 0.6),rgba(102, 0, 135, 0.6)), url('../img/header-crear.jpg');
+	border-color:rgba(102, 0, 135, 0.6);
+	background-size: cover;
+}
+
+.form-group{
+	width: 100%;
+	max-width: 450px;
+	margin-left: auto;
+	margin-right: auto; 
+}
