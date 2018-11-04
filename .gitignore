@@ -1,3 +1,2 @@
 #Rutas que seran ignoradas por Github
-.node_modules
-.credenciales
+credenciales/
